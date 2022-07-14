@@ -1,0 +1,1 @@
+protoc -I./greetpb --go_out=./greet_server   --go-grpc_out=./greet_server   --go_out=./greet_client   --go-grpc_out=./greet_client   greetpb/*.proto  
